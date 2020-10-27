@@ -2928,18 +2928,18 @@ window.background:not(.csd) {
     }
   }
 
-  > window.background > menu { // context-menus
-    border: none; // hide ugly double borders
-    background-color: $menu_bg;
-    border-radius: 0;
+  //> window.background > menu { // context-menus
+  //  border: none; // hide ugly double borders
+  //  background-color: $menu_bg;
+  //  border-radius: 0;
 
-    // revert to standard separators
-    > separator {
-      margin-top: 2px;
-      margin-bottom: 2px;
-      background-color: $borders_color;
-    }
-  }
+  //  // revert to standard separators
+  //  > separator {
+  //    margin-top: 2px;
+  //    margin-bottom: 2px;
+  //    background-color: $borders_color;
+  //  }
+  //}
 
   > widget {
     // Emphasize toolbar's border-bottom
